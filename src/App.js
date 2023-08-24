@@ -1,6 +1,11 @@
+
+import './App.css';
+import Footer from './components/Footer/Index';
+import Header from './components/Header';
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Footer from './components/Footer';
+ 
 import Hero from './components/Hero';
 import Header from './components/Header';
 
@@ -27,11 +32,17 @@ import About from './components/About/About'
 function App() {
   return (
     <div className="App">
+
+      <Header/>
+      <Hero/>
+
       <Header />
       <Hero />
       <Footer />
       <Choice />
+
       <About/>
+      <Footer/>
     </div>
   );
 }
