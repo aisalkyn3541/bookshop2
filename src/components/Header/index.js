@@ -7,6 +7,7 @@ import "./index.scss";
 import "./../../App.scss"
 
 
+
 const Header = () => {
   return (
     <div id="header">
@@ -23,6 +24,8 @@ const Header = () => {
           <div className="header--icon">
               <BsSearch />
               <FaLock />
+          <div header-nav>
+            <img src={logo} alt="" />
           </div>
         </div>
       </div>
